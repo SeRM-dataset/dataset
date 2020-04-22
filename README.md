@@ -16,7 +16,7 @@ Example of RGB Image and pixel-level annotated Image :
 
 <img src="https://user-images.githubusercontent.com/64125124/79951851-6ca5b400-84b4-11ea-8c01-82e5a9c30e0c.png" width="33%"> <img src="https://user-images.githubusercontent.com/64125124/79951854-6e6f7780-84b4-11ea-8280-522cd1ca1dd7.png" width="33%"> <img src="https://user-images.githubusercontent.com/64125124/79951857-6f080e00-84b4-11ea-891b-0f4199295ecf.png" width="33%">
 
-[ Details about SeRM dataset ](http://cilab.yonsei.ac.kr/datasetSeRM)
+[More Details about SeRM dataset ](http://cilab.yonsei.ac.kr/datasetSeRM)
 
 
 
