@@ -41,6 +41,6 @@ will be uploaded soon...!
 
 * * *
 # Download
-You can download the SpeRM dataset through contacting
-email : <jangwj1256@yonsei.ac.kr>
+
+The full dataset will be uploaded very soon. 
 
