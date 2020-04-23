@@ -36,8 +36,8 @@ The images annotated with the experimental vehicle pose, where the images were a
 
 * * *
 # Supplementary Video
-<img src="https://youtu.be/5DhkyUjjGQc" width="60%"> 
 
+[![Watch the video](https://img.youtube.com/vi/5DhkyUjjGQc/maxresdefault.jpg)](https://youtu.be/5DhkyUjjGQc )
 Youtube : https://youtu.be/5DhkyUjjGQc 
 
 * * *
