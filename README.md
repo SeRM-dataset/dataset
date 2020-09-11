@@ -35,8 +35,8 @@ The images annotated with the experimental vehicle pose, where the images were a
 | RL<sup>a</sup> | Caltech Lanes | 2008 | 1,224  | o   | -    | -   | -       | -   | -   | -   | -   ||
 | RL | KITTI road | 2013 | 600  | -   | -    | -   | -   |  o   |  o   | -   | -   ||
 | RL | TuSimple | 2017 | 6,408    |  o   | -    | -   | -   | -   | -   | -   | -  || 
-| RL | FiveAI \cite{34} | 2018 | 23,980 |  o   | -    | -   | -       | -   | -   | -   | -  || 
-| RL | CULane \cite{35} | 2018 | 133,235        |  o   | -    | -   | -       | -   | -   | -   | -  |
+| RL | FiveAI | 2018 | 23,980 |  o   | -    | -   | -       | -   | -   | -   | -  || 
+| RL | CULane | 2018 | 133,235        |  o   | -    | -   | -       | -   | -   | -   | -  |
 | SRM<sup>b</sup> | Road Marking Detection | 2012 | 28,614 | -  | -  |o  | 10  | -  | -  | -   | -  |
 | RL+SRM | ROMA | 2008 | 116   |o   |o    |o   | 3  | -   | -   | -   | -   ||
 | RL+SRM | CamVid | 2008 | 701   | -   |  o    |  o   | 2    | -   | -   | -   | -   ||
