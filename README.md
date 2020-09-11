@@ -48,6 +48,7 @@ The images annotated with the experimental vehicle pose, where the images were a
 | RL+SRM |**Ours**  | 2019 | 25,157 | -   |o    |o   | 16      |o  |o   |o   |  o  |
 
 <sup>a</sup>Road Lane; <sup>b</sup> Symbolic Road Markings; <sup>c</sup> Lane Instances; <sup>d</sup> Pixel Level Annotation; <sup>e</sup> Number of Classes; <sup>f</sup> odometry of vehicle; <sup>g</sup> Loop Closure; <sup>h</sup> Multi-Trajectory; 
+
 <sup>1</sup> only 5683 images are pixel-level annotated
 
 
