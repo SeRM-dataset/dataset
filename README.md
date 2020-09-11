@@ -45,7 +45,7 @@ The images annotated with the experimental vehicle pose, where the images were a
 | RL+SRM |TRoM | 2017 | 712 |o   |o    |o   | 19      | -   | -   | -   |    || 
 | RL+SRM |ApolloScape | 2018 | 143K    |  -   |o    |o   | 27      | -   |o   | -   | -   ||
 | RL+SRM |BDD100k | 2018 | 120M<sup>1</sup> |o   |o    | -   | 11      | -   |  o   | -   |o  || 
-| RL+SRM |**Ours**  | 2019 | 25,157 | -   |o    |o   | 16      |o  |o   |o   |  o  |
+| RL+SRM |**Ours**  | 2020 | 25,157 | -   |o    |o   | 16      |o  |o   |o   |  o  |
 
 <sup>a</sup>Road Lane; <sup>b</sup> Symbolic Road Markings; <sup>c</sup> Lane Instances; <sup>d</sup> Pixel Level Annotation; <sup>e</sup> Number of Classes; <sup>f</sup> odometry of vehicle; <sup>g</sup> Loop Closure; 
 <sup>h</sup> Multi-Trajectory; 
