@@ -19,7 +19,6 @@ For the Road Marking (RM) map building, the RM should be extracted from a camera
 <img src="https://user-images.githubusercontent.com/64125124/79954879-f35c9000-84b8-11ea-8955-f107807a8af2.png" width="80%"> 
 
 
-
 ## About Odometry data and Loop-closure
 
 The images annotated with the experimental vehicle pose, where the images were acquired, were needed in building the RM map. To this end, 21,000 images were gathered on three routes in Seoul and Goyang-si and annotated with RTK-GPS and odometry data at the image level. Route 1 data were acquired from Sangam, Seoul. Route 1 is a complex route with many loop closures, including both narrow and wide roads. Route 2 data were obtained from Ilsan, Goyang-si, which consists of wide roads. Route 3 collected data from very large areas in Sangam and contained data obtained while driving the same road in opposite directions. The three routes included several loop closures, as shown in \figref{fig:ourtrajectory}. The total length of our three driving routes was approximately 26 km, with each route being 4.86, 9.47, and 11.63 km, respectively.
@@ -28,19 +27,10 @@ The images annotated with the experimental vehicle pose, where the images were a
 
                  Route 1                              Route 2                                   Route 3
 
+# Comparison of Driving Scene Datasets
 
-
-
-
-
-# %%%%%%%%%%%%%%%%%%%%%%%%%%%%% Table 1 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
-# %%%%%%%%%%%%%%%%%%%%%%%%%%%%% Table 1 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-[Comparison of Driving Scene Datasets]
 |    Type   | Name | Year | # of frames | LI^c^  | PLA^d^  | SRM | Cls# ^e^  | Od^f^  | GPS | LC^g^  | MT^h^
------------- | :-----------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------:
+---- | :----------: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----:
 |   | Caltech Lanes | 2008 | 1,224  | \checkmark   | -    | -   | -       | -   | -   | -   | -   ||
 |   | KITTI road | 2013 | 600  | -   | -    | -   | -   |  \checkmark   |  \checkmark   | -   | -   ||
 | RL | TuSimple | 2017 | 6,408    |  \checkmark   | -    | -   | -   | -   | -   | -   | -  || 
