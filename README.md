@@ -29,25 +29,27 @@ The images annotated with the experimental vehicle pose, where the images were a
 
 # Comparison of Driving Scene Datasets
 
-|    Type   | Name | Year | # of frames | LI^c^  | PLA^d^  | SRM | Cls# ^e^  | Od^f^  | GPS | LC^g^  | MT^h^
----- | :----------: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----:
-|   | Caltech Lanes | 2008 | 1,224  | \checkmark   | -    | -   | -       | -   | -   | -   | -   ||
-|   | KITTI road | 2013 | 600  | -   | -    | -   | -   |  \checkmark   |  \checkmark   | -   | -   ||
-| RL | TuSimple | 2017 | 6,408    |  \checkmark   | -    | -   | -   | -   | -   | -   | -  || 
-|   | FiveAI \cite{34} | 2018 | 23,980 |  \checkmark   | -    | -   | -       | -   | -   | -   | -  || 
-|   | CULane \cite{35} | 2018 | 133,235        |  \checkmark   | -    | -   | -       | -   | -   | -   | -  |
-| SRM | Road Marking Detection | 2012 | 28,614 | -  | -  |\checkmark  | 10  | -  | -  | -   | -  |
-|   | ROMA | 2008 | 116   |\checkmark   |\checkmark    |\checkmark   | 3  | -   | -   | -   | -   ||
-|  | CamVid | 2008 | 701   | -   |  \checkmark    |  \checkmark   | 2    | -   | -   | -   | -   ||
-|  | Cityscape | 2016 | 25,000  | -   | -    | -   | -       |\checkmark   | -   | -   |\checkmark   ||
-| RL+SRM | Mapillary Vistas | 2017 | 20,000  | -   |\checkmark    |\checkmark   | 6       | -   | -   | -   |\checkmark   ||
-| TRoM | 2017 | 712 |\checkmark   |\checkmark    |\checkmark   | 19      | -   | -   | -   |    || 
-| ApolloScape | 2018 | 143K    |  -   |\checkmark    |\checkmark   | 27      | -   |\checkmark   | -   | -   ||
-| BDD100k | 2018 | 120M^{1} |\checkmark   |\checkmark    | -   | 11      | -   |  \checkmark   | -   |\checkmark  || 
-| **Ours**  | 2019 | 25,157 | -   |\checkmark    |\checkmark   | 16      |\checkmark  |\checkmark   |\checkmark   |  \checkmark  |
 
- :------
-^a^Road Lane; ^b^ Symbolic Road Markings; ^c^ Lane Instances; ^d^ Pixel Level Annotation; ^e^ Number of Classes; ^f^ odometry of vehicle; ^g^ Loop Closure; ^h^ Multi-Trajectory; ||
+# Comparison of Driving Scene Datasets
+
+|    Type   | Name | Year | # of frames | LI^c^  | PLA^d^  | SRM | Cls# ^e^  | Od^f^  | GPS | LC^g^  | MT^h^
+:----: | :----------: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----:
+|   | Caltech Lanes | 2008 | 1,224  | o   | -    | -   | -       | -   | -   | -   | -   ||
+|   | KITTI road | 2013 | 600  | -   | -    | -   | -   |  o   |  o   | -   | -   ||
+| RL | TuSimple | 2017 | 6,408    |  o   | -    | -   | -   | -   | -   | -   | -  || 
+|   | FiveAI \cite{34} | 2018 | 23,980 |  o   | -    | -   | -       | -   | -   | -   | -  || 
+|   | CULane \cite{35} | 2018 | 133,235        |  o   | -    | -   | -       | -   | -   | -   | -  |
+| SRM | Road Marking Detection | 2012 | 28,614 | -  | -  |o  | 10  | -  | -  | -   | -  |
+|   | ROMA | 2008 | 116   |o   |o    |o   | 3  | -   | -   | -   | -   ||
+|  | CamVid | 2008 | 701   | -   |  o    |  o   | 2    | -   | -   | -   | -   ||
+|  | Cityscape | 2016 | 25,000  | -   | -    | -   | -       |o   | -   | -   |o   ||
+| RL+SRM | Mapillary Vistas | 2017 | 20,000  | -   |o    |o   | 6       | -   | -   | -   |o   ||
+|   |TRoM | 2017 | 712 |o   |o    |o   | 19      | -   | -   | -   |    || 
+|   |ApolloScape | 2018 | 143K    |  -   |o    |o   | 27      | -   |o   | -   | -   ||
+|   |BDD100k | 2018 | 120M^{1} |o   |o    | -   | 11      | -   |  o   | -   |o  || 
+|   |**Ours**  | 2019 | 25,157 | -   |o    |o   | 16      |o  |o   |o   |  o  |
+
+^a^Road Lane; ^b^ Symbolic Road Markings; ^c^ Lane Instances; ^d^ Pixel Level Annotation; ^e^ Number of Classes; ^f^ odometry of vehicle; ^g^ Loop Closure; ^h^ Multi-Trajectory; 
 ^1^ only 5683 images are pixel-level annotated
 
 
