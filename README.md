@@ -21,16 +21,25 @@ For the Road Marking (RM) map building, the RM should be extracted from a camera
 
 ## About Odometry data and Loop-closure
 
-The images annotated with the experimental vehicle pose, where the images were acquired, were needed in building the RM map. To this end, 21,000 images were gathered on three routes in Seoul and Goyang-si and annotated with RTK-GPS and odometry data at the image level. Route 1 data were acquired from Sangam, Seoul. Route 1 is a complex route with many loop closures, including both narrow and wide roads. Route 2 data were obtained from Ilsan, Goyang-si, which consists of wide roads. Route 3 collected data from very large areas in Sangam and contained data obtained while driving the same road in opposite directions. The three routes included several loop closures, as shown in \figref{fig:ourtrajectory}. The total length of our three driving routes was approximately 26 km, with each route being 4.86, 9.47, and 11.63 km, respectively.
+The images annotated with the experimental vehicle pose, where the images were acquired, were needed in building the RM map. To this end, 21,000 images were gathered on three routes in Seoul and Goyang-si and annotated with RTK-GPS and odometry data at the image level. Route 1 data were acquired from Sangam, Seoul. Route 1 is a complex route with many loop closures, including both narrow and wide roads. Route 2 data were obtained from Ilsan, Goyang-si, which consists of wide roads. Route 3 collected data from very large areas in Sangam and contained data obtained while driving the same road in opposite directions. The three routes included several loop closures, as shown below. The total length of our three driving routes was approximately 26 km, with each route being 4.86, 9.47, and 11.63 km, respectively.
 
-<img src="https://user-images.githubusercontent.com/64125124/79951851-6ca5b400-84b4-11ea-8c01-82e5a9c30e0c.png" width="33%"> <img src="https://user-images.githubusercontent.com/64125124/79951854-6e6f7780-84b4-11ea-8280-522cd1ca1dd7.png" width="33%"> <img src="https://user-images.githubusercontent.com/64125124/79951857-6f080e00-84b4-11ea-891b-0f4199295ecf.png" width="33%">
+> ### Route 1 (Sangam, Seoul / 4.86km )
+> 
+> <img src="https://user-images.githubusercontent.com/64125124/79951851-6ca5b400-84b4-11ea-8c01-82e5a9c30e0c.png" width="30%">
+>
+> ### Route 2 (Ilsan, Goyang-si / 9.47km)
+> 
+> <img src="https://user-images.githubusercontent.com/64125124/79951854-6e6f7780-84b4-11ea-8280-522cd1ca1dd7.png" width="30%"> 
 
-                 Route 1                              Route 2                                   Route 3
+> ### Route 3 (Sangam, Seoul / 11.63km)
+> 
+> <img src="https://user-images.githubusercontent.com/64125124/79951857-6f080e00-84b4-11ea-891b-0f4199295ecf.png" width="30%">
+
 
 
 ## Comparison of Driving Scene Datasets
 
-|    Type   | Name | Year | # of frames | LI<sup>c</sup>  | PLA<sup>d</sup>  | SRM | Cls# <sup>e</sup>  | Od<sup>f</sup>  | GPS | LC<sup>g</sup>  | MT<sup>h</sup>
+|    Type   | Name | Year | # of frames | LI<sup>c</sup>  | PLA<sup>d</sup>  | SRM | Cls#<sup>e</sup>  | Od<sup>f</sup>  | GPS | LC<sup>g</sup>  | MT<sup>h</sup>
 :----: | :----------: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----:
 | RL<sup>a</sup> | Caltech Lanes | 2008 | 1,224  | o   | -    | -   | -       | -   | -   | -   | -   ||
 | RL | KITTI road | 2013 | 600  | -   | -    | -   | -   |  o   |  o   | -   | -   ||
@@ -53,7 +62,6 @@ The images annotated with the experimental vehicle pose, where the images were a
 <sup>1</sup> only 5683 images are pixel-level annotated
 
 
-
 * * *
 # Supplementary Video
 
@@ -61,7 +69,21 @@ The images annotated with the experimental vehicle pose, where the images were a
 Youtube :   https://youtu.be/h4pIEwkPDd0
 
 * * *
+
 # Download
 
 The full dataset will be uploaded very soon. 
+
+
+* * *
+# Citation
+Please cite SeRM dataset in your publications if it helps your research:
+
+    @article{JWJ_2021_JAS,
+      author={Wonje Jang, Junhyuk Hyun, Jhonghyun An, Minho Cho and Euntai Kim},
+      title={A Lane-level Road Marking Map using a Monocular Camera},
+      journal={IEEE/CAA Journal of Automatica Sinica},
+      volume={early Access},
+      year={2021}
+    }
 
