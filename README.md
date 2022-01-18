@@ -3,7 +3,7 @@
 
 ## About Image data
 
-For the Road Marking (RM) map building, the RM should be extracted from a camera image at the pixel level using a semantic segmentation network. To train the semantic segmentation network for the lane-level RM map, a large number of images were gathered in South Korea. The RMs in the images were manually annotated at the pixel level. The SeRM dataset included 225,158 images annotated with 16 classes of RMs at the pixel level. The number of images constituting the dataset was 19,998 for training and 5,160 for testing. In the SeRM dataset, “Road Mark” is defined as the union of symbolic road markings (SRMs), road lanes (RLs), and a background 
+For the Road Marking (RM) map building, the RM should be extracted from a camera image at the pixel level using a semantic segmentation network. To train the semantic segmentation network for the lane-level RM map, a large number of images were gathered in South Korea. The RMs in the images were manually annotated at the pixel level. The SeRM dataset included 25,158 images annotated with 16 classes of RMs at the pixel level. The number of images constituting the dataset was 19,998 for training and 5,160 for testing. In the SeRM dataset, “Road Mark” is defined as the union of symbolic road markings (SRMs), road lanes (RLs), and a background 
 
 > ### SRM 
 > slow down, go ahead, turn right, turn left, ahead or turn right, ahead or turn left, crosswalk, number markings, text markings, other markings
