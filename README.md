@@ -25,15 +25,15 @@ The images annotated with the experimental vehicle pose, where the images were a
 
 > ### Route 1 (Sangam, Seoul / 4.86km )
 > 
-> <img src="https://user-images.githubusercontent.com/64125124/79951851-6ca5b400-84b4-11ea-8c01-82e5a9c30e0c.png" width="30%">
+> <img src="https://user-images.githubusercontent.com/64125124/79951851-6ca5b400-84b4-11ea-8c01-82e5a9c30e0c.png" width="60%">
 >
 > ### Route 2 (Ilsan, Goyang-si / 9.47km)
 > 
-> <img src="https://user-images.githubusercontent.com/64125124/79951854-6e6f7780-84b4-11ea-8280-522cd1ca1dd7.png" width="30%"> 
+> <img src="https://user-images.githubusercontent.com/64125124/79951854-6e6f7780-84b4-11ea-8280-522cd1ca1dd7.png" width="60%"> 
 
 > ### Route 3 (Sangam, Seoul / 11.63km)
 > 
-> <img src="https://user-images.githubusercontent.com/64125124/79951857-6f080e00-84b4-11ea-891b-0f4199295ecf.png" width="30%">
+> <img src="https://user-images.githubusercontent.com/64125124/79951857-6f080e00-84b4-11ea-891b-0f4199295ecf.png" width="60%">
 
 
 
