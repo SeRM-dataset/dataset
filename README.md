@@ -1,6 +1,7 @@
 # SeRM dataset : A Lane-Level Road Marking Map Using a Monocular Camera
+<div align=center>
 ![fig2](https://user-images.githubusercontent.com/64125124/79951808-5992e400-84b4-11ea-9ab3-7dd37d3266c0.png)
-
+ </div>
 ## About Image data
 
 For the Road Marking (RM) map building, the RM should be extracted from a camera image at the pixel level using a semantic segmentation network. To train the semantic segmentation network for the lane-level RM map, a large number of images were gathered in South Korea. The RMs in the images were manually annotated at the pixel level. The SeRM dataset included 25,158 images annotated with 16 classes of RMs at the pixel level. The number of images constituting the dataset was 19,998 for training and 5,160 for testing. In the SeRM dataset, “Road Mark” is defined as the union of symbolic road markings (SRMs), road lanes (RLs), and a background 
