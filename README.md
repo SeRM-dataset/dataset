@@ -1,7 +1,7 @@
 # SeRM dataset : A Lane-Level Road Marking Map Using a Monocular Camera
 <div align=center>
  
-![fig2](https://user-images.githubusercontent.com/64125124/79951808-5992e400-84b4-11ea-9ab3-7dd37d3266c0.png)
+<img src="https://user-images.githubusercontent.com/64125124/79951808-5992e400-84b4-11ea-9ab3-7dd37d3266c0.png" width="80%">
  
 </div>
 
