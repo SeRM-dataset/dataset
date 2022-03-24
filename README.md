@@ -87,11 +87,17 @@ Please email [Wonje Jang](mailto:jangwj1256@yonsei.ac.kr) to obtain the google d
 # Citation
 Please cite [SeRM dataset](https://ieeexplore.ieee.org/document/9583170) in your publications if it helps your research:
 
-    @article{JWJ_2021_JAS,
+    @article{jang2021JAS,
       author={Wonje Jang, Junhyuk Hyun, Jhonghyun An, Minho Cho and Euntai Kim},
       title={A Lane-level Road Marking Map using a Monocular Camera},
       journal={IEEE/CAA Journal of Automatica Sinica},
       volume={Volume: 9, Issue: 1},
       year={2022}
     }
-
+      
+    @inproceedings{jang2018iv,
+      author = {Wonje Jang, Jhonghyun An, Sangyun Lee, Minho Cho, Myungki Sun and Euntai Kim},
+      title = {Road Lane Semantic Segmentation for High Definition Map},
+      booktitle = {Proc. of the 2018 IEEE Intelligent Vehicles Symposium (IV)},
+      year = {2018}
+    }
