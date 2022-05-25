@@ -80,10 +80,9 @@ Youtube :   https://youtu.be/h4pIEwkPDd0
 
 # Download
 
-Please email [Wonje Jang](mailto:jangwj1256@yonsei.ac.kr) to obtain the google drive link for downloading.
+Please email [Wonje Jang](mailto:jangwj1256@yonsei.ac.kr)(jangwj1256@yonsei.ac.kr) to obtain the google drive link for downloading.
 
--- Email Format 
-
+> Email Format 
 
 *Name :
 
