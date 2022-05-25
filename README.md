@@ -82,6 +82,12 @@ Youtube :   https://youtu.be/h4pIEwkPDd0
 
 Please email [Wonje Jang](mailto:jangwj1256@yonsei.ac.kr) to obtain the google drive link for downloading.
 
+-- Email Format 
+
+*Name :
+*Organization : 
+*Purpose of dataset :
+
 
 * * *
 # Citation
