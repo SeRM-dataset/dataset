@@ -20,9 +20,31 @@ The structure of each part is as shown in the figure below.
   
 # Colormap 
 
+> ### Class information 
+![Class information](https://user-images.githubusercontent.com/64125124/209811522-47b4285d-fcef-439e-bc14-d63a8941e997.png)
+
+
 > ### trainannot label information 
-> image index,    x coordinate,    y coordinate,    heading angle (radian)
-  
+|    Name   | Train ID  |  category  |  color   
+:----------: | :-----: | :-----: | :-----:
+|    Background   | 0  |  ignore  |  [0 0 0];
+|    Slow down   | 1  |  SRM  |  [0 0 255];  
+|    Go ahead   | 2  |  SRM  |  [0 128 255];  
+|    Trun right   | 3  |  SRM  |  [255 128 0]; 
+|    Turn left   | 4  |  SRM  |  [255 192 64]; 
+|    Ahead or turn right   | 5  |  SRM  |  [64 0 255]; 
+|    Ahead or turn left   | 6  |  SRM  |  [128 0 255];   
+|    Crosswalk   | 7  |  SRM  |  [255 0 255	]; 
+|    Double line (yellow)   | 8  |  RL  |  [0 255 0];  
+|    Double line (blue)   | 9  |  RL  |  [192 255 128]; 
+|    Broken line (white)   | 10  |  RL  |  [210 210 210];
+|    Single line (yellow)   | 11  |  RL  |  [255 255 0]; 
+|    Single line (white)   | 12  |  RL  |  [128 128 128]; 
+|    Stop line   | 13  |  RL  |  [255 0 0]; 
+|    Numbers   | 14  |  SRM  |  [64 192 64];
+|    Texts   | 15  |  SRM  |  [128 192 128]; 
+|    Others   | 16  |  SRM  |  [128 64 80]; 
+
 
 # Dataset Details
 
