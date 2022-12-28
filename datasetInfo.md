@@ -16,6 +16,13 @@ The structure of each part is as shown in the figure below.
 
 '0. SeRM_image' provides RGB image of 320 x 1280 size and semantic segmentation label, and '1. SeRM_image_test' provides RGB images only. Finally, '2. SeRM_mapping' provides odometry information of the vehicle and the ground truth obtained by GPS for localization & mapping. In addition, RGB images acquired with the camera mounted on the vehicle are provided in 672 x 1280 size. To apply the trained network from 1.SeRM_image, one can use the lower part (320 x 1280) of the 0.original_full image given in 3.SeRM_mapping for inference.
   
+  
+  
+# Colormap 
+
+> ### trainannot label information 
+> image index,    x coordinate,    y coordinate,    heading angle (radian)
+  
 
 # Dataset Details
 
